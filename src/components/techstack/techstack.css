@@ -1,0 +1,30 @@
+.row .tech-title{
+    text-align: center;
+    font-weight: 400;
+}
+.row .tech-desc{
+    text-align: center;
+}
+.tech-img-container{
+    margin: auto;
+}
+.skill-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 0.8rem 0;
+}
+.skill-img{
+    
+    display: flex;
+    align-self: center
+}
+.skill-img img{
+    
+    max-height: 60px;
+    max-width: 80px;
+}
+.skill-name{
+    font-size: 20px;
+}

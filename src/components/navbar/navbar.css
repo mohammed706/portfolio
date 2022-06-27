@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis:wght@200;300;400;500;600;700;800&family=Inter:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,500;0,700;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto:wght@300;400;500&family=Rubik:wght@400;500;700&family=Staatliches&display=swap');
+.navbar-brand h2{
+    font-family: "Dancing Script" ,sans-serif;
+    font-weight: 600;
+    color: #218db8;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #218db8;
+    font-weight: 500 !important;
+    
+}
+
+.navbar .navbar-toggler{
+    color: #222;
+    font-size: 20px;
+    border-color: #218db8;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
