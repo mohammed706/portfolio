@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./navbar.css";
-
+import CV from "../../img/CV.pdf";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+
 const Navbar = () => {
   return (
     <div>

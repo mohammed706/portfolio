@@ -45,12 +45,12 @@ const ProductList = () => {
         <h1 className="pl-title">My Projects</h1>
       </div>
 
-      <OwlCarousel
-        className="top-slider owl-theme mt-5"
-        {...optionCategorySlider}
-      >
+      <div className="row mt-5 mb-3 text-center">
+        <h5>Dashboards</h5>
+      </div>
+      <div className="row mb-5">
         {project.map(item => <Product item={item} />)}
-      </OwlCarousel>
+      </div>
     </div>
   );
 };
