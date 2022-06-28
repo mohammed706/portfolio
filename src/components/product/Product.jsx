@@ -3,24 +3,22 @@ import { Link } from "react-router-dom";
 
 const Product = ({ item }) => {
   return (
-    <div className="col-md-3 col-sm-6">
-      <div class="card h-100 text-center shadow">
-        <img src={item.img} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title" style={{ color: "#222" }}>
-            {item.title}
-          </h5>
-          <p class="card-text">
-            {item.desc}
-          </p>
-          <Link
-            to={`/project/${item.id}`}
-            class="btn "
-            style={{ backgroundColor: "#218db8", color: "#fff" }}
-          >
-            Show Details
-          </Link>
-        </div>
+    <div className="card h-100 text-center shadow">
+      <img src={item.img} className="card-img-top" height="250px" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title" style={{ color: "#222" }}>
+          {item.title}
+        </h5>
+        <p className="card-text">
+          {item.desc}
+        </p>
+        <Link
+          to={`/project/${item.id}`}
+          className="btn "
+          style={{ backgroundColor: "#218db8", color: "#fff" }}
+        >
+          Show Details
+        </Link>
       </div>
     </div>
   );

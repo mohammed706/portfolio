@@ -79,7 +79,7 @@ export const project = [
   },
   {
     id: 4,
-    title: "General Tobacco Corporation",
+    title: "Tobacco Corporation",
     img: `${tobbacco}`,
     desc1:
       "A application for manage all employees data in General Tobacco Corporation",

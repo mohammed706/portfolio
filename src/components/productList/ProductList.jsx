@@ -48,9 +48,9 @@ const ProductList = () => {
       <div className="row mt-5 mb-3 text-center">
         <h5>Dashboards</h5>
       </div>
-      <div className="row mb-5">
+      <OwlCarousel className="top-slider owl-theme" {...optionCategorySlider}>
         {project.map(item => <Product item={item} />)}
-      </div>
+      </OwlCarousel>
     </div>
   );
 };
