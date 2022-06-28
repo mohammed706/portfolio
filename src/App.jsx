@@ -9,7 +9,7 @@ import { ThemeContext } from "./context";
 import Navbar from "./components/navbar/Navbar";
 import Techstack from "./components/techstack/Techstack";
 import Projectdetails from "./components/project/Projectdetails";
-
+import Footer from "./components/footer/footer";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -33,6 +33,7 @@ const App = () => {
         <Route exact path="/project/:id">
           <Projectdetails />
         </Route>
+        <Footer />
       </BrowserRouter>
     </div>
   );

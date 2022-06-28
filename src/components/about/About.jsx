@@ -1,16 +1,21 @@
 import "./about.css";
 import Award from "../../img/award.JPG";
 import Me from "../../img/me2.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const About = () => {
+  AOS.init({
+    duration: 1200
+  });
   return (
     <div className="a" id="about">
-      <div className="a-left">
+      <div className="a-left" data-aos="fade-down">
         <div className="a-card bg" />
         <div className="a-card">
           <img src={Me} alt="" className="a-img" />
         </div>
       </div>
-      <div className="a-right">
+      <div className="a-right" data-aos="fade-up">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
           Hi there ! I'm Mohammed , Front-end developer With{" "}

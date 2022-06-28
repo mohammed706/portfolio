@@ -9,8 +9,13 @@ import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
 import { Link } from "react-router-dom";
-
+import Swal from "sweetalert2";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Contact = () => {
+  AOS.init({
+    duration: 1200
+  });
   const formRef = useRef();
   const [done, setDone] = useState(false);
   const theme = useContext(ThemeContext);
@@ -28,7 +33,12 @@ const Contact = () => {
       .then(
         result => {
           console.log(result.text);
-          setDone(true);
+          Swal.fire(
+            "Thank you!",
+            "Operation completed successfully",
+            "success"
+          );
+          formRef.current = "";
         },
         error => {
           console.log(error.text);
@@ -40,7 +50,7 @@ const Contact = () => {
     <div className="c" id="contact">
       <div className="c-bg" />
       <div className="c-wrapper">
-        <div className="c-left">
+        <div className="c-left" data-aos="zoom-in">
           <h1 className="c-title">Contact me :</h1>
           <div className="c-info">
             <a
@@ -72,8 +82,24 @@ const Contact = () => {
               <img src={Instagram} alt="" className="c-icon" />
             </a>
           </div>
+          <p
+            style={{
+              display: "block",
+              "margin-block-start": "1em",
+              "margin-block-end": "1em",
+              "margin-inline-start": "0px",
+              " margin-inline-end": "0px"
+            }}
+          >
+            <b>ADDRESS : </b>
+            Turkey-Istanbul
+            <br />
+            <b>EMAIL : </b>
+            mohammedsheikhkhamis@gmail.com
+            <br />
+          </p>
         </div>
-        <div className="c-right">
+        <div className="c-right" data-aos="zoom-in-up">
           <p className="c-desc">Feel free to drop me a line:</p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
@@ -81,27 +107,30 @@ const Contact = () => {
               type="text"
               placeholder="Name"
               name="user_name"
+              required
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
               placeholder="Subject"
               name="user_subject"
+              required
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
-              type="text"
+              type="email"
               placeholder="Email"
               name="user_email"
+              required
             />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
               rows="5"
               placeholder="Message"
               name="message"
+              required
             />
             <button>Submit</button>
-            {done && "Thank you..."}
           </form>
         </div>
       </div>
