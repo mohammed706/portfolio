@@ -17,14 +17,7 @@ export const websites = [
     online: "https://bondi-one.vercel.app/",
     githublink: "https://github.com/mohammed706/bondi"
   },
-  {
-    id: 2,
-    title: "Patchino Cafe",
-    img: `${img2}`,
-    desc: "A Patchino  is a website for Cafe Store in Latakia I used HTML5 + CSS3 + JS",
-    online: "https://patchino.vercel.app/",
-    githublink: "https://github.com/mohammed706/Patchino"
-  },
+
   {
     id: 3,
     title: "Elite Design",
