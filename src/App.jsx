@@ -10,6 +10,8 @@ import Navbar from "./components/navbar/Navbar";
 import Techstack from "./components/techstack/Techstack";
 import Projectdetails from "./components/project/Projectdetails";
 import Footer from "./components/footer/footer";
+import Website from "./components/websites/Website";
+import Websitedetails from "./components/websiteDetails/websitedetails";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -28,10 +30,14 @@ const App = () => {
           <About />
           <Techstack />
           <ProductList />
+          <Website />
           <Contact />
         </Route>
         <Route exact path="/project/:id">
           <Projectdetails />
+        </Route>
+        <Route exact path="/website/:id">
+          <Websitedetails />
         </Route>
         <Footer />
       </BrowserRouter>
