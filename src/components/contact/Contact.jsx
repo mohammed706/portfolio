@@ -130,7 +130,7 @@ const Contact = () => {
               name="message"
               required
             />
-            <button>Submit</button>
+            <button>Send</button>
           </form>
         </div>
       </div>
