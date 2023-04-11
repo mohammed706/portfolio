@@ -47,11 +47,37 @@ const Contact = () => {
   };
 
   return (
-    <div className="c" id="contact">
+    <div className="c mt-4" id="contact">
       <div className="c-bg" />
+
+      <h2 className="text-center">Get in touch</h2>
       <div className="c-wrapper">
         <div className="c-left" data-aos="zoom-in">
-          <h1 className="c-title">Contact me :</h1>
+          <div className="desc-info">
+            Either you have an inquiry about a potential project or you want to
+            contact to hire me , a question about programming or whatever pops
+            into your mind, drop me a message and I will get back to you as soon
+            as possible.
+          </div>
+          <p
+            style={{
+              display: "block",
+              "margin-block-start": "1em",
+              "margin-block-end": "1em",
+              "margin-inline-start": "0px",
+              " margin-inline-end": "0px"
+            }}
+          >
+            <b>ADDRESS : </b>
+            Turkey-Istanbul
+            <br />
+            <b>EMAIL : </b>
+            mohammedsheikhkhamis@gmail.com
+            <br />
+            <b>WEBSITE : </b>
+            https://mohammedsheikhkhamis.vercel.app
+          </p>
+          <p className="m-0">or you can find me here : </p>
           <div className="c-info">
             <a
               className="c-info-item"
@@ -82,22 +108,6 @@ const Contact = () => {
               <img src={Instagram} alt="" className="c-icon" />
             </a>
           </div>
-          <p
-            style={{
-              display: "block",
-              "margin-block-start": "1em",
-              "margin-block-end": "1em",
-              "margin-inline-start": "0px",
-              " margin-inline-end": "0px"
-            }}
-          >
-            <b>ADDRESS : </b>
-            Turkey-Istanbul
-            <br />
-            <b>EMAIL : </b>
-            mohammedsheikhkhamis@gmail.com
-            <br />
-          </p>
         </div>
         <div className="c-right" data-aos="zoom-in-up">
           <p className="c-desc">Feel free to drop me a line:</p>
@@ -130,7 +140,7 @@ const Contact = () => {
               name="message"
               required
             />
-            <button>Send</button>
+            <button className="w-100">Send</button>
           </form>
         </div>
       </div>

@@ -1,41 +1,41 @@
-.p {
-  width: 30%;
-  height: 40vh;
-  margin: 20px 10px;
-  border: 2px solid rgb(243, 242, 242);
-  border-radius: 10px 10px 0px 0px;
-  overflow: hidden;
+.card-body .category{
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card-body .category div{
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: rgba(0, 167, 110, 0.063);
+    color: rgb(0, 167, 110);
+}
+.card-body .category .dash-details-route{
+  color: #03423f;
 }
 
-.p-browser {
-  height: 20px;
-  
-  display: flex;
-  align-items: center;
-  position: sticky;
-  z-index: 2;
-}
 
-.p-circle {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  margin: 3px;
-  background-color: white;
-}
-
-.p-img {
+.p-img{
   width: 100%;
-  transition: all 10s ease;
+  transition: all 2s ease;
 }
 
-.p:hover .p-img {
-  transform: translateY(-100%);
+.p-img:hover {
+  transform: scale(0.9);
 }
 
 @media screen and (max-width: 480px) {
   .p {
     width: 40%;
     height: 20vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .dash-img{
+    object-fit: cover !important;
   }
 }

@@ -1,5 +1,5 @@
 import "./intro.css";
-import Me from "../../img/me3.jpg";
+import Me from "../../img/me1.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Intro = () => {
@@ -27,8 +27,9 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right" data-aos="fade-left">
-        <div className="i-bg" />
-        {/* <img src={Me} alt="" className="i-img" /> */}
+        <div className="i-bg">
+          <img src={Me} alt="" className="i-img" />
+        </div>
       </div>
     </div>
   );

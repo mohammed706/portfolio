@@ -24,13 +24,13 @@ const App = () => {
     >
       <BrowserRouter>
         <Navbar />
-        <Toggle />
+        {/* <Toggle /> */}
         <Route exact path="/">
           <Intro />
           <About />
           <Techstack />
           <ProductList />
-          <Website />
+          {/* <Website /> */}
           <Contact />
         </Route>
         <Route exact path="/project/:id">

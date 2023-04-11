@@ -2,7 +2,11 @@
   height: 100%;
   position: relative;
 }
-
+.desc-info{
+  text-align: justify;
+  font-size: 22px;
+  line-height: 32px;
+}
 .c-bg {
   width: 20px;
   height: 100%;
@@ -17,14 +21,18 @@
 
 .c-left {
   flex: 1;
+  padding: 25px 20px 0px 0px;
 }
 
 .c-right {
   flex: 1;
   display: flex;
   flex-direction: column;
-  
   justify-content: center;
+  background-color: #051923;
+  padding: 25px;
+  border-radius: 15px;
+  
 }
 
 .c-title {
@@ -38,7 +46,7 @@
   margin-top: 30px;
   align-items: center;
   font-weight: 300;
-  width: 20%;
+  width: 10%;
 }
 
 .c-icon {
@@ -49,6 +57,7 @@
 
 .c-desc {
   font-weight: 400;
+  color: #fff;
   
 }
 
@@ -76,12 +85,12 @@ textarea {
 }
 
 button {
-  border: none;
+  border: 1px solid #fff;
   padding: 15px;
-  background-color: #218db8;
+  background-color: #051923;
   color: white;
   font-weight: 500;
-  border-radius: 15rem;
+  /* border-radius: 15rem; */
   cursor: pointer;
   transition: all 1s;
 }
@@ -91,6 +100,45 @@ button:hover{
 }
 
 @media screen and (max-width: 480px) {
+  .c-right{
+    padding: 7px;
+  }
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
