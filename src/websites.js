@@ -1,5 +1,5 @@
 import img1 from "./img/project/web/1.JPG";
-import img2 from "./img/project/web/2.jpg";
+import img2 from "./img/project/Neoma.png";
 import img3 from "./img/project/Elite group.png";
 import img4 from "./img/project/web/4.jpg";
 import img5 from "./img/project/2.jpg";
@@ -18,7 +18,15 @@ export const websites = [
     githublink: "https://github.com/mohammed706/bondi",
     type:"Landing Page"
   },
-
+  {
+    id: 2,
+    title: "Neoma Publishing Center",
+    img: `${img2}`,
+    desc: "A bondi template is a website I do it for Eduicational purpuses using HTML5 + CSS3 + BOOTSTRAP",
+    online: "https://bondi-one.vercel.app/",
+    githublink: "https://github.com/mohammed706/bondi",
+    type:"Website"
+  },
   {
     id: 3,
     title: "Elite Group",

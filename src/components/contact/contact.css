@@ -29,10 +29,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #051923;
-  padding: 25px;
+  background-color: #333333;
+  padding: 20px;
   border-radius: 15px;
-  
+  margin-bottom: 10px;
 }
 
 .c-title {
@@ -71,7 +71,7 @@ input {
   width: 100%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid black;
+  border-radius: 10px;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
@@ -79,6 +79,7 @@ input {
 
 textarea {
   width: 100%;
+  border-radius: 10px;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
@@ -87,7 +88,7 @@ textarea {
 button {
   border: 1px solid #fff;
   padding: 15px;
-  background-color: #051923;
+  background-color: #333333;
   color: white;
   font-weight: 500;
   /* border-radius: 15rem; */
@@ -124,11 +125,11 @@ button:hover{
   form {
     margin-top: 0px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   input {
-    width: 35%;
+    width: 100%;
     height: 40px;
     margin: 10px;
     margin-left: 0;
@@ -158,13 +159,13 @@ button:hover{
   }
 
   form {
-    margin-top: 0px;
+    
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   input {
-    width: 35%;
+    width: 100%;
     height: 40px;
     margin: 10px;
     margin-left: 0;
