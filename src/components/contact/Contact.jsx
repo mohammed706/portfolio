@@ -65,7 +65,7 @@ const Contact = () => {
               "margin-block-start": "1em",
               "margin-block-end": "1em",
               "margin-inline-start": "0px",
-              " margin-inline-end": "0px"
+              "margin-inline-end": "0px"
             }}
           >
             <b>ADDRESS : </b>
