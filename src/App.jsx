@@ -17,10 +17,10 @@ const App = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div
-      style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white"
-      }}
+    // style={{
+    //   backgroundColor: darkMode ? "#222" : "white",
+    //   color: darkMode && "white"
+    // }}
     >
       <BrowserRouter>
         <Navbar />
@@ -33,7 +33,7 @@ const App = () => {
           {/* <Website /> */}
           <Contact />
         </Route>
-        <Route exact path="/project/:id">
+        <Route exact path="/projects">
           <Projectdetails />
         </Route>
         <Route exact path="/website/:id">

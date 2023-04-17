@@ -41,7 +41,7 @@ const Navbar = () => {
                 </HashLink>
               </li>
               <li className="nav-item">
-                <HashLink className="nav-link p-2 p-lg-3 " to="/#projects">
+                <HashLink className="nav-link p-2 p-lg-3 " to="/projects">
                   Projects
                 </HashLink>
               </li>

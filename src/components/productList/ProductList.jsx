@@ -48,14 +48,14 @@ const ProductList = () => {
           <h2 className="pl-title">My Projects</h2>
         </div>
         <ul
-          class="nav nav-tabs pt-3"
+          className="nav nav-tabs pt-3"
           id="myTab"
           role="tablist"
           style={{ border: "none" }}
         >
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link active"
+              className="nav-link active"
               id="dash-tab"
               data-bs-toggle="tab"
               data-bs-target="#dash"
@@ -67,9 +67,9 @@ const ProductList = () => {
               Dashboards
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="sites-tab"
               data-bs-toggle="tab"
               data-bs-target="#sites"
@@ -82,9 +82,9 @@ const ProductList = () => {
             </button>
           </li>
         </ul>
-        <div class="tab-content" id="myTabContent">
+        <div className="tab-content" id="myTabContent">
           <div
-            class="tab-pane fade show active"
+            className="tab-pane fade show active"
             id="dash"
             role="tabpanel"
             aria-labelledby="dash-tab"

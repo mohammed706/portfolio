@@ -4,7 +4,7 @@ import arrow from "../../img/Arrow-right.svg";
 
 const Product = ({ item }) => {
   return (
-    <Link className="project-details text-decoration-none">
+    <Link className="project-details text-decoration-none" to={"/projects"}>
       <div className="card h-100 shadow p-2">
         <img
           src={item.img}
