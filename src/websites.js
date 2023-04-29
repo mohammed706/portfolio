@@ -8,6 +8,7 @@ import img7 from "./img/project/web/7.jpg";
 import img8 from "./img/project/kitab.png";
 import img9 from "./img/project/3.jpg";
 import img10 from "./img/project/web/10.jpg";
+import img11 from "./img/project/WS-logo.png";
 export const websites = [
   {
     id: 1,
@@ -169,5 +170,19 @@ export const websites = [
       {id:2,color:"rgb(40, 112, 251);",back:"rgba(40, 112, 251, 0.063)",name:"CSS"},
       {id:3,color:"rgb(120, 54, 250)",back:"rgba(120, 54, 250, 0.063)",name:"Bootstrap"},
     ]
-  }
+  },
+  {
+    id: 11,
+    title: "WS | Finland",
+    img: `${img11}`,
+    desc: "landing page for Business Finland | WS Company for marketing and consulting ",
+    online: "https://wsfinland.com/",
+    githublink: null,
+    type:"Landing Page",
+    tools:[ 
+      {id:1,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"HTML"},
+      {id:2,color:"rgb(40, 112, 251);",back:"rgba(40, 112, 251, 0.063)",name:"CSS"},
+      {id:3,color:"rgb(120, 54, 250)",back:"rgba(120, 54, 250, 0.063)",name:"Bootstrap"},
+    ]
+  },
 ];
