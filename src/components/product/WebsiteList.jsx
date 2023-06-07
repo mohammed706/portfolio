@@ -3,7 +3,7 @@ import "./product.css";
 import { Link } from "react-router-dom";
 const WebsiteList = ({ item }) => {
   return (
-    <div className="card h-100 shadow p-2">
+    <Link className="card h-100 shadow p-2" to={"/projects"}>
       <img
         src={item.img}
         className="card-img-top p-img"
@@ -24,7 +24,7 @@ const WebsiteList = ({ item }) => {
           </div>
         </span>
       </div>
-    </div>
+    </Link>
   );
   // <div className="card h-100 text-center shadow">
   //   <img src={item.img} className="card-img-top" height="250px" alt="..." />

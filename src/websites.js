@@ -9,6 +9,7 @@ import img8 from "./img/project/kitab.png";
 import img9 from "./img/project/3.jpg";
 import img10 from "./img/project/web/10.jpg";
 import img11 from "./img/project/WS-logo.png";
+import img12 from "./img/project/aim-logo.png"
 export const websites = [
   {
     id: 1,
@@ -183,6 +184,25 @@ export const websites = [
       {id:1,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"HTML"},
       {id:2,color:"rgb(40, 112, 251);",back:"rgba(40, 112, 251, 0.063)",name:"CSS"},
       {id:3,color:"rgb(120, 54, 250)",back:"rgba(120, 54, 250, 0.063)",name:"Bootstrap"},
+    ]
+  },
+  {
+    id: 12,
+    title: "Aim Network",
+    img: `${img12}`,
+    desc: "Alliance of Iraqi Minorities Network",
+    online: "https://aim-iq.org/",
+    githublink: null,
+    type:"Website",
+    tools:[ 
+      {id:1,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"React Js"},
+      {id:2,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"Reactstrap"},
+      {id:3,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"React Router"},
+      {id:4,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"React Hooks"},
+      {id:5,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"React Intl"},
+      {id:6,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"i18n"},
+      {id:7,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"vite"},
+      {id:8,color:"rgb(239, 216, 29)",back:"rgba(239, 216, 29, 0.063)",name:"Axios"},
     ]
   },
 ];

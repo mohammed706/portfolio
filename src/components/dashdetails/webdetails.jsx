@@ -37,7 +37,7 @@ const Webdetails = () => {
 
       {item.tools.map(tool => {
         return (
-          <span key={tool.id} className="tools">
+          <span key={tool.id} className="tools p-2">
             <div
               style={{
                 color: `${tool.color}`,
