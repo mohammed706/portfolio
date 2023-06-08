@@ -3,7 +3,11 @@ import "./product.css";
 import { Link } from "react-router-dom";
 const WebsiteList = ({ item }) => {
   return (
-    <Link className="card h-100 shadow p-2" to={"/projects"}>
+    <Link
+      className="card h-100 shadow p-2"
+      to={"/projects"}
+      style={{ textDecoration: "none" }}
+    >
       <img
         src={item.img}
         className="card-img-top p-img"
