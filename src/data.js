@@ -48,7 +48,12 @@ import ki1 from "./img/project/kitab/img1.jpg";
 import ki2 from "./img/project/kitab/img2.jpg";
 import ki3 from "./img/project/kitab/img3.jpg";
 import ki4 from "./img/project/kitab/img4.jpg";
-
+//zoundr 
+import zoundrLogo from "./img/project/zoundrbase.png"
+import z1 from "./img/project/zoundr/zoundr1.JPG"
+import z2 from "./img/project/zoundr/zound2.JPG"
+import z3 from "./img/project/zoundr/zoundr3.JPG"
+import z4 from "./img/project/zoundr/zoundr4.JPG"
 export const project = [
   {
     id: 1,
@@ -209,6 +214,29 @@ export const project = [
     img2: `${ki2}`,
     img3: `${ki3}`,
     img4: `${ki4}`,
+    type: "Dashboard"
+  },
+  {
+    id: 8,
+    title: "Zoundr",
+    name:"Zoundr",
+    img: `${zoundrLogo}`,
+    desc1:
+      "We support musicians. We help you to find your way and support you in all areas so that you can concentrate on your music.",
+    desc2:
+      "I work on this Dashboard to manage all data Which the project owner wants to add, delete and update from his list ",
+    desc3: "I use Single Sign On (sso) Authentication",
+    tools:[
+      {id:1,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"React Js"},
+      {id:2,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"Reactstrap"},
+      {id:3,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"React Router"},
+      {id:4,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"React Hooks"},
+      {id:5,color:"rgb(242, 153, 0)",back:"rgba(242, 153, 0, 0.063)",name:"SSO"},
+      {id:6,color:"rgb(0, 167, 110)",back:"rgba(0, 167, 110, 0.063)",name:"Axios"}    ],
+    img1: `${z1}`,
+    img2: `${z2}`,
+    img3: `${z3}`,
+    img4: `${z4}`,
     type: "Dashboard"
   }
 ];
