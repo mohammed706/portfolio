@@ -12,6 +12,7 @@ import img9 from "../../img/techstack/Tailwind.png";
 import img10 from "../../img/techstack/git.png";
 import img11 from "../../img/techstack/github.png";
 import img12 from "../../img/techstack/firebase.png";
+import img13 from "../../img/techstack/next.png";
 const Techstack = () => {
   return (
     <div id="tech-stack">
@@ -57,6 +58,16 @@ const Techstack = () => {
           <div className="col-md-3 col-sm-6">
             <div className="skill-holder">
               <div className="skill-img me-3">
+                <img src={img13} alt="" />
+              </div>
+              <div className="skill-name">
+                <span>NEXT</span>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="skill-holder">
+              <div className="skill-img me-3">
                 <img src={img2} alt="" />
               </div>
               <div className="skill-name">
@@ -95,7 +106,7 @@ const Techstack = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6">
+          {/* <div className="col-md-3 col-sm-6">
             <div className="skill-holder">
               <div className="skill-img me-3">
                 <img src={img8} alt="" />
@@ -114,7 +125,7 @@ const Techstack = () => {
                 <span>Tailwind</span>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-3 col-sm-6">
             <div className="skill-holder">
               <div className="skill-img me-3">
