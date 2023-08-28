@@ -13,6 +13,7 @@ import img10 from "../../img/techstack/git.png";
 import img11 from "../../img/techstack/github.png";
 import img12 from "../../img/techstack/firebase.png";
 import img13 from "../../img/techstack/next.png";
+import img14 from "../../img/techstack/reactstrap.jpg";
 const Techstack = () => {
   return (
     <div id="tech-stack">
@@ -103,6 +104,16 @@ const Techstack = () => {
               </div>
               <div className="skill-name">
                 <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="skill-holder">
+              <div className="skill-img me-3">
+                <img src={img14} alt="" />
+              </div>
+              <div className="skill-name">
+                <span>Reactstrap</span>
               </div>
             </div>
           </div>
