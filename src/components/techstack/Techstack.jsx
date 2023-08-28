@@ -13,7 +13,7 @@ import img10 from "../../img/techstack/git.png";
 import img11 from "../../img/techstack/github.png";
 import img12 from "../../img/techstack/firebase.png";
 import img13 from "../../img/techstack/next.png";
-import img14 from "../../img/techstack/reactstrap.jpg";
+import img14 from "../../img/techstack/reactstrap.png";
 const Techstack = () => {
   return (
     <div id="tech-stack">
