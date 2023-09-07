@@ -46,6 +46,11 @@ const Navbar = () => {
                 </HashLink>
               </li>
               <li className="nav-item">
+                <HashLink className="nav-link p-2 p-lg-3 " to="/certificate">
+                  Certificates
+                </HashLink>
+              </li>
+              <li className="nav-item">
                 <HashLink className="nav-link p-2 p-lg-3 " to="/#about">
                   About
                 </HashLink>

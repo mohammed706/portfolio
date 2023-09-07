@@ -12,16 +12,16 @@ import Projectdetails from "./components/project/Projectdetails";
 import Footer from "./components/footer/footer";
 import Website from "./components/websites/Website";
 import Websitedetails from "./components/websiteDetails/websitedetails";
+import Certificate from "./components/certificate/Certificate";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div
-    // style={{
-    //   backgroundColor: darkMode ? "#222" : "white",
-    //   color: darkMode && "white"
-    // }}
-    >
+    <div>
+      {/* style={{
+      backgroundColor: darkMode ? "#222" : "white",
+      color: darkMode && "white"
+    }} */}
       <BrowserRouter>
         <Navbar />
         {/* <Toggle /> */}
@@ -35,6 +35,9 @@ const App = () => {
         </Route>
         <Route exact path="/projects">
           <Projectdetails />
+        </Route>
+        <Route exact path="/certificate">
+          <Certificate />
         </Route>
         <Route exact path="/website/:id">
           <Websitedetails />

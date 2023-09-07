@@ -54,6 +54,20 @@ import z1 from "./img/project/zoundr/zoundr1.JPG"
 import z2 from "./img/project/zoundr/zound2.JPG"
 import z3 from "./img/project/zoundr/zoundr3.JPG"
 import z4 from "./img/project/zoundr/zoundr4.JPG"
+
+
+//certificates 
+import cer1 from "./img/certificate/award.JPG"
+import cer2 from "./img/certificate/cer1.JPG"
+import cer3 from "./img/certificate/cer2.JPG"
+import cer4 from "./img/certificate/cer3.JPG"
+import cer5 from "./img/certificate/cer4.JPG"
+import cer6 from "./img/certificate/cer5.JPG"
+import cer7 from "./img/certificate/cer6.JPG"
+import cer8 from "./img/certificate/cer7.JPG"
+import cer9 from "./img/certificate/cer8.JPG"
+import cer10 from "./img/certificate/cer9.JPG"
+import cer11 from "./img/certificate/cer10.JPG"
 export const project = [
   {
     id: 1,
@@ -240,3 +254,6 @@ export const project = [
     type: "Dashboard"
   }
 ];
+export const certificates = [
+  `${cer1}`,`${cer2}`,`${cer3}`,`${cer4}`,`${cer5}`,`${cer9}`,`${cer6}`,`${cer7}`,`${cer8}`,`${cer10}`,`${cer11}`
+]
