@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 import "./navbar.css";
-import CV from "../../img/CV.pdf";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg sticky-top">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <h2>It's Mo</h2>
@@ -59,6 +58,18 @@ const Navbar = () => {
                 <HashLink className="nav-link p-2 p-lg-3 " to="/#contact">
                   Contact
                 </HashLink>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link p-2 p-lg-3 "
+                  style={{ backgroundColor: "#9cb5ba", color: "white" }}
+                  href="/resume.pdf"
+                  download="CV-PDF-document"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Download CV
+                </a>
               </li>
             </ul>
           </div>
