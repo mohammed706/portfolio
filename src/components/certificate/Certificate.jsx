@@ -25,7 +25,7 @@ const Certificate = () => {
     }
     return (
         <>
-        {data.img && (
+        {/* {data.img && (
             <div style={{
                 width:"100%",
                 height:"100vh",
@@ -42,26 +42,26 @@ const Certificate = () => {
                     <button className="btn-warning m-4" style={{border:"none",borderRadius:"10px",outline:"none",backgroundColor:"#218DB8" , color:"white"}} onClick={()=>imageAction("next")}>Next</button>
                 </div>
             </div>
-        )}
+        )} */}
             <div style={{padding:"10px"}}>
                 <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
-                <Masonry gutter="20px">
-                    {certificates &&
-                    certificates.map((item, i) => {
-                        return (
-                            <>
-                                <img
-                                    key={i}
-                                    src={item}
-                                    alt="..."
-                                    style={{ width: "100%", display: "block" ,cursor:"pointer"}}
-                                    onClick={()=>viewImage(item , i)}
-                                />
-                            
-                            </>
-                        );
-                    })}
-                </Masonry>
+                    <Masonry gutter="20px">
+                        {certificates &&
+                        certificates.map((item, i) => {
+                            return (
+                                <>
+                                    <img
+                                        key={i}
+                                        src={item}
+                                        alt="..."
+                                        style={{ width: "100%", display: "block" ,cursor:"pointer"}}
+                                        // onClick={()=>viewImage(item , i)}
+                                    />
+                                
+                                </>
+                            );
+                        })}
+                    </Masonry>
                 </ResponsiveMasonry>
             </div>
         </>
